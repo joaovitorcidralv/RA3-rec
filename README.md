@@ -1,20 +1,4 @@
 # RA3-rec
 tarefa para a matéria de arquitetura de software
 
-%% C4 Model - Level 1: Diagrama de Contexto
-
-graph TD
-    A[Usuário (Vendedor/ Caixa)] -->|Usa| B[Sistema PDV]
-    B -->|Integra| C[API Gateway]
-    B -->|Comunica| D[iFood]
-    B -->|Integra| E[Serviço de Pagamentos]
-    B -->|Integra| F[Sistemas Externos (ERP)]
-    B -->|Integra| G[Serviço de Relatórios]
-    B -->|Integra| H[Serviço de Notas Fiscais]
-    C -->|Roteia requisições| I[Microserviço de Produtos]
-    C -->|Roteia requisições| J[Microserviço de Vendas]
-    C -->|Roteia requisições| K[Microserviço de Clientes]
-    C -->|Roteia requisições| L[Microserviço de Pagamentos]
-    C -->|Roteia requisições| M[Microserviço de Relatórios]
-    C -->|Roteia requisições| N[Microserviço de Notas Fiscais]
-
+[![](https://mermaid.ink/img/pako:eNqNk8FO20AQhl9ltBISlRJVlXryAQmchKZNUJQAh3pzGHmHZCV7J-yuIYjwMJx4AMQT5MWYBNo0OI3wZT3r__tndtZzr3I2pBJ1cADpd-hLUEATenQj67cEWhYnHksEQ5CyizSPrJ12sjmbwnlLO5DnONPqIlTLR28ZDi_JGTLsv0KKdo5ftBpDs3m0uAi4gJNsZEMkcRy0Lsdv-Mn6c1fcxXYBaXY86MIpRrrFuy1JymXlbC6aVmY7zGa3QTsbkb-xyydelT3ACZbkIofd6o4U_15TgPY8kncc4LA9HKwq34mcbiUYUoFx-Sxn_0-GH1vyM46SqGNDjvYPkK6BIUeyCJ6uKxtEvnyhsIBu1re55_DvkTybanOgffTPOr26H_wM-6vOpoWVVtJn6N6Ouj9exT6-X-frnd5ncFY3-Nh71VAl-RKtkRG4X1lqFadUklaJvBq6wqqIWmn3IFKUno_uXK6S6CtqKM_VZKqSKyyCRNXMyC_7PjB_d2fofjNvYjI2su-_Dd169h5eAfkgQVw?type=png)](https://mermaid.live/edit#pako:eNqNk8FO20AQhl9ltBISlRJVlXryAQmchKZNUJQAh3pzGHmHZCV7J-yuIYjwMJx4AMQT5MWYBNo0OI3wZT3r__tndtZzr3I2pBJ1cADpd-hLUEATenQj67cEWhYnHksEQ5CyizSPrJ12sjmbwnlLO5DnONPqIlTLR28ZDi_JGTLsv0KKdo5ftBpDs3m0uAi4gJNsZEMkcRy0Lsdv-Mn6c1fcxXYBaXY86MIpRrrFuy1JymXlbC6aVmY7zGa3QTsbkb-xyydelT3ACZbkIofd6o4U_15TgPY8kncc4LA9HKwq34mcbiUYUoFx-Sxn_0-GH1vyM46SqGNDjvYPkK6BIUeyCJ6uKxtEvnyhsIBu1re55_DvkTybanOgffTPOr26H_wM-6vOpoWVVtJn6N6Ouj9exT6-X-frnd5ncFY3-Nh71VAl-RKtkRG4X1lqFadUklaJvBq6wqqIWmn3IFKUno_uXK6S6CtqKM_VZKqSKyyCRNXMyC_7PjB_d2fofjNvYjI2su-_Dd169h5eAfkgQVw)
